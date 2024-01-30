@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --sec:rgb(15, 9, 56);
+    --prim:rgb(159, 159, 235);
+    ;
+}
+body{
+    background-color:var(--sec);
+    color:aliceblue;
+}
+.mine{
+    width:300px;
+    float:right;
+    height:300px;
+    margin:100px;
+    position:relative;
+    bottom:100px;
+   
+}
+
+.para{
+    margin-top:20px;
+    width:1000px;
+    font-size: 30px;
+}
+img{
+    
+}
+
+.clear{
+    clear:right;
+}
+header{
+    height:100px;
+    padding:10px;
+    border-bottom:5px solid var(--prim);
+}
+
+header>h1{
+    margin:10px;
+    margin-left:100px;
+    margin-top:20px;
+    font-size:50px;
+    position:relative;
+    left:550px;
+}
+header h3{
+    position:relative;
+    left:690px;
+}
+
+.intro{
+    margin:100px;
+    margin-left:100px;
+    font-size: 20px;
+    height:300px;
+}
+.intro> img{
+    margin-right:100px;
+    border-radius:50%;
+    border:5px solid var(--prim);
+
+    
+}
+.skill{
+    margin:100px;
+}
+
+.s{
+    margin-bottom:10px;
+    font-size:30px;
+}
+ 
+ .cont{
+    background-color:rgb(179, 179, 179);
+    width:600px;
+    height:30px;
+    margin:20px;
+    border-radius: 50px;
+ }
+ .html{
+    width:440px;
+    background-color: var(--prim);
+ }
+
+ .css{
+    width:380px;
+    background-color: var(--prim)
+ }
+
+ .c{
+    width:320px;
+    background-color: var(--prim);
+ }
+ .skills{
+    text-align: right;
+    color:white;
+    height:30px;
+    font-size:25px;
+    border-radius: 50px;
+ }
+ .st{
+    margin-left:50px;
+    margin:20px;
+ }
+ .box{
+    width:600px;
+    height:100px;
+    padding:15px;
+    margin-left:30px;
+    margin-top:50px;
+    font-size:20px;
+    
+ }
+
+ .container{
+    background-color: white;
+    box-shadow: 10px 10px rgb(175, 175, 175);
+    color:rgb(2, 5, 38);
+
+ }
+ .box2{
+    position:relative;
+    bottom:180px;
+    left:700px;
+}
+
+ .container:hover{
+    background-color: var(--prim);
+    color:white;
+ }
+
+ .resume{
+    position:relative;
+    left:100px;
+    bottom:100px;
+ }
+
+ .res{
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+    border:5px solid var(--prim);
+ }
+ .rest{
+    border-radius: 55px;
+    height:110px;
+    width:500px;
+    margin:50px;
+ }
+
+
+ .con{
+    text-align: center;
+ }
+ .conimg{
+    height:20px;
+    width:20px;
+    position:relative;
+    border-radius:50%;
+    border:5px solid var(--prim);
+}
+.contain{
+    height:30px;
+    width:200px;
+    margin:20px;
+    border-radius: 50px;
+    position:relative;
+    left:640px;
+    box-shadow: 5px 5px rgb(168, 167, 167) ;
+}
+
+#phn{
+    position:relative;
+    right:31px;
+}
+#mail{
+    position:relative;
+    right:5px;
+}
+#insta{
+    position:relative;
+    right:45px;
+}
+
+footer{
+    float:right;
+    font-size: 20px;
+    margin-top:5px solid var(--prim);
+}
+
+.h{
+    float:right;
+    background-color: transparent;
+    width:300px;
+    height:200px;
+    position:relative;
+    bottom:300px;
+    right:200px;
+    
+}
